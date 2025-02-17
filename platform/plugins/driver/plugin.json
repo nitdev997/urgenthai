@@ -1,0 +1,11 @@
+{
+    "id": "botble/driver",
+    "name": "Driver",
+    "namespace": "Botble\\Driver\\",
+    "provider": "Botble\\Driver\\Providers\\DriverServiceProvider",
+    "author": "GAGAN SAHIL ",
+    "url": "",
+    "version": "1.0.0",
+    "description": "",
+    "minimum_core_version": "7.2.2"
+}

@@ -1,0 +1,51 @@
+APP_NAME="Urgent Hai Bhai"
+# Disable debug mode by changing APP_DEBUG=false when your site is ready for live.
+APP_DEBUG=false
+APP_ENV=local
+# Must change APP_URL to your website URL. Example: APP_URL=http://your-domain.com
+APP_URL=http://localhost
+APP_KEY=base64:SbzM2tzPsCSlpTEdyaju8l9w2C5vmtd4fNAduiLEqng=
+LOG_CHANNEL=daily
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+QUEUE_CONNECTION=sync
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
+
+REDIS_CLIENT=predis
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+# Change to your database credentials
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE="urgenthai"
+DB_USERNAME="root"
+DB_PASSWORD="password"
+DB_STRICT=false
+
+# You should change this value to hide your admin URL (DON'T use special characters). Example: ADMIN_DIR=hello-admin then your admin URL will be
+# http://your-domain.com/hello-admin
+ADMIN_DIR=admin
+
+CMS_ENABLE_INSTALLER=false
+
+
+# OneSignal
+ONESIGNAL_APP_ID=50c906ac-2dbf-4c23-8d00-e60b19b503e9
+ONESIGNAL_REST_API_KEY=os_v2_app_kdeqnlbnx5gchdia4yfrtnid5hgnyiahjryud7mcbmepu3fhvxuzscb2ly6eipfs2ozyxti5ckmyhhj4ch4x3b5xf477lurw7lov7ta
+USER_AUTH_KEY=gnyiahjryud7mcbmepu3fhvxu
+
+# TWILIO
+TWILIO_SID=AC8d01cd50cdac03d7bf0913bb3a3e8db7
+TWILIO_AUTH_TOKEN=16a835c9bd77fce7cf0b780f1887a398
+TWILIO_PHONE_NUMBER=+18064026954
+TWILIO_VERIFY_SID=VA2af7a65e7aaacebe3051554ad58265e2
+
+GOOGLE_MAP=AIzaSyC24nRpC0qTfICejIQz7Oun0SOcVymnWLs
+
+RAZORPAY_KEY=rzp_test_Azu70wAeNpiEkI
+RAZORPAY_SECRET=dtkpsVgWfLiMKBWByK3IpJkX

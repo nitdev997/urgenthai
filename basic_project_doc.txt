@@ -1,0 +1,62 @@
+UrgentHai (admin, customer, vendor, driver)
+
+flow:
+- user create an order of items uploaded by diffrent vendors.
+- vendor received an order notigication with accept/reject feature.
+- after order accept by vendor the order is open for all drivers for delivery.
+- all drivers will get notifications with accept/reject feature.
+- after accept order delivery request. driver visit the store, collected the items and delivered to the customer.
+
+note:
+- user can add items in cart from multiple vendors.
+- Driver have to go to diffrent vendors to collect items and deliver to the customer.
+
+
+++++++++++++++++++++++++++++++++++
+"framework", "laravel"
+"php": "^8.1|^8.2|^8.3",
+"laravel/framework": "^10.24",
+
+++++++++++++++++++++++++++++++++++++++++
+"name": "botble/api",
+"version": "2.0.12",
+
+++++++++++++++++++++++++++++++++++
+
+Theme : Nest #https://botble.com/intro/nest/
+
+++++++++++++++++++++++++++++++++++++
+
+botble commands: https://docs.botble.com/cms/commands.html#commands
+
+- create plugin: php artisan cms:plugin:create <plugin>
+- activate plugin: php artisan cms:plugin:activate <plugin>
+- deactivate plugin: php artisan cms:plugin:deactivate <plugin>
+- remove plugin: php artisan cms:plugin:remove <plugin>
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Driver app    +
+Customer app  +
+Vendor app    +
+Admin panel   +
+
+++++++++++++++++++++++++++++++++++++
++  install npm dependencies: npm install
++  install composer dependencies: composer install
++  run project: php artisan serve
+
++++++++++++++++++++++++++++++++++++
+Modules
+Driver: platform/plugins/driver/
+Vendor: platform/plugins/marketplace
+Customer: platform/plugin/ecommerce
+
+++++++++++++++++++++++++++++++++++++
+
+other 3rd party dependencies
+
++  Twillio
++  google map
++  onesignal
++  razorpay payment gateway
